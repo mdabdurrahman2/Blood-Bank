@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #b8b4b4;
+}
+
+
+.signup-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 50rem;
+  padding: 30px;
+  background: #F2F2F2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.signup-header {
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+
+.signup-header header {
+  color: #333;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.signup-header p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 15px;
+  background-color: transparent;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  transition: box-shadow 0.3s, border-color 0.3s;
+  outline: none;
+}
+
+.input-box:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-color: #e74c3c;
+}
+
+.icon {
+  position: relative;
+  top: 41%;
+  left: 2px;
+  transform: translateY(-50%);
+  padding: 8px;
+  background: #ccc;
+  min-width: 40px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+/* Input fields */
+.input-field {
+  flex: 1;
+  padding: 10px 0 10px 20px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.input-field::placeholder {
+  color: #1e1c1c;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+}
+
+.input-field:focus {
+  width: 105%;
+  border-color: #222;
+}
+
+/* Forgot password and sign up link */
+.forgot {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+}
+
+#check {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section a {
+  color: #222;
+}
+
+
+.sign-up-link a {
+  color: #222;
+  font-weight: 600;
+}
+
+.input-submit {
+  margin: 1rem 0;
+  position: relative;
+}
+
+.submit-btn {
+  width: 100%;
+  height: 60px;
+  background: #DD4B39;
+  font-weight: bold;
+  font-size: 24px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .1s;
+}
+
+.input-submit label {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #F44336;
+  transform: scale(1.05,1);
+}
+
+.sign-up-link {
+ text-align: center;
+}
+
+.sign-up-link a {
+  color: #222;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#password {
+  flex: 1;
+  padding-right: 30px;
+  margin-right: 12px;
+}
+
+#password:focus {
+  outline: none;
+}
+
+#password::placeholder {
+  color: #1e1c1c; 
+}
+
+.form-control{
+  border: none;
+  padding: 10px 20px;
+  background-color: transparent; 
+  border-radius: 30px;
+  width: 281px;
+  outline: none;
+}
+
